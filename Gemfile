@@ -33,5 +33,6 @@ gem 'high_voltage'
 gem 'simple_form'
 group :development do
   gem 'better_errors'
+  gem 'sprockets-rails', :require => 'sprockets/railtie'
   gem 'rails_layout'
 end
