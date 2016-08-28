@@ -14,7 +14,11 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'byebug'
 gem 'web-console'
-#gem 'listen', '~> 3.0.5'
+
+group :development do
+  gem 'listen', '~> 3.0.5'
+end
+
 gem 'spring'
 #gem 'spring-watcher-listen', '~> 2.0.0'
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
