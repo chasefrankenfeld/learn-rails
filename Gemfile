@@ -24,7 +24,7 @@ gem 'spring'
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # learn-rails
-gem 'foundation-rails', '~> 5.5'
+gem 'foundation-rails'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
