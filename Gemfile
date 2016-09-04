@@ -14,12 +14,12 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug'
-  gem 'web-console'
   gem 'spring'
 end
 
 group :development do
   gem 'listen', '~> 3.0.5'
+  gem 'web-console'
 end
 
 #gem 'spring-watcher-listen', '~> 2.0.0'
@@ -30,6 +30,7 @@ gem 'foundation-rails'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
+
 group :development do
   gem 'better_errors'
   gem 'sprockets-rails', :require => 'sprockets/railtie'
@@ -40,4 +41,8 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+end
+group :test do
+  gem "minitest-spec-rails"
+  gem "minitest-rails-capybara"
 end
